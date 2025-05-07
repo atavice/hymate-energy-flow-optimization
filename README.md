@@ -20,6 +20,16 @@ Setup instructions:
 
 Model explanation and mathematical formulation of the problem can be found in mathematical formulation pdf
 
+## Objective Function
+
+$$
+\min_{q,s,b} \sum_{t \in T} \left[
+   (q^{g \to c}_t + q^{g \to b}_t) c^{buy}_t
+ - (q^{pv \to g}_t + q^{b \to g}_t) c^{sell}_t
+ + (q^{b \to c}_t + q^{b \to g}_t) c^{LCOS}_t
+\right]
+$$
+
 
 Part_A implemented and added as a .ipynb file including the outputs and plots.
 
