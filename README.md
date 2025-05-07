@@ -1,6 +1,8 @@
 # hymate-energy-flow-optimization
 Energy Flow Optimization Problem &amp; Solution
 
+This repo solves an energy optimization problem using Pyomo. The objective is to meet hourly electricity demand by minimizing the cost.
+
 
 Setup instructions:
 -Clone the repo
