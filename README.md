@@ -6,15 +6,21 @@ This repo solves an energy optimization problem using Pyomo. The objective is to
 
 ## Setup instructions:
 -Clone the repo
+
   git clone https://github.com/atavice/hymate-energy-flow-optimization.git
+  
   cd hymate-energy_flow_optimization
 
 -Install required packages
+
   pip install -r requirements
 
 -Install GLPK solver for pyomo
+
   On macOS (Homebrew): brew install glpk
+  
   On Ubuntu: sudo apt install glpk-utils
+  
   On Windows: Download from https://winglpk.sourceforge.net/
 
 
