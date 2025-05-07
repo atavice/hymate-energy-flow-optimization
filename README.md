@@ -21,5 +21,6 @@ Setup instructions:
 Model explanation and mathematical formulation of the problem can be found in mathematical formulation pdf
 
 
-Part_A implemented and added as both .ipynb and .py file.
-Part_B implemented and added as both .ipynb and .py file.
+Part_A implemented and added as a .ipynb file including the outputs and plots.
+
+Part_B implemented and added as a .ipynb file including the outputs and plots.
