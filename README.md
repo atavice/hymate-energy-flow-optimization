@@ -25,8 +25,9 @@ This repo solves an energy optimization problem using Pyomo. The objective is to
 
 
 
-## Objective Function
+## Optimization model and the desriptions
 
+Objective function:
 $$
 \min_{q,s,b} \sum_{t \in T} \left[
    (q^{g \to c}_t + q^{g \to b}_t) c^{buy}_t
@@ -35,6 +36,7 @@ $$
 \right]
 $$
 
+See mathematical_formulation.png and variables_and_parameters.png for detailed mathematical descriptions.
 
 
 ## Notes
